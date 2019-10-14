@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Song+Myung&display=swap&subset=korean');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,400|Raleway:200,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap&subset=korean');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Roboto:300&display=swap&subset=korean');
+/*
+font-family: 'Arvo', serif;
+font-family: 'Song Myung', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Black Han Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+*/
+
+html,body{
+	height:100%;
+}
+
+#main{
+	height:100%;
+	background-color:#efefef;
+}
+#main > div{
+	height:100%;
+}
+#main > div > div{
+	height:100%;
+}
+.animatable{
+	width:100%;
+	float:right;
+	height:100%;
+}
+
+::-webkit-scrollbar {
+  width: 8px;  /* 세로축 스크롤바 길이 */
+  height: 0px;  /* 가로축 스크롤바 길이 */
+}
+::-webkit-scrollbar-corner {
+  height:0px;
+}

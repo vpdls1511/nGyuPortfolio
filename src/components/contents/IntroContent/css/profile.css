@@ -1,0 +1,9 @@
+.Korean{
+	font-family: 'Nanum Gothic', sans-serif;
+	margin-bottom:20px;
+}
+.English{
+	font-family: 'Roboto', sans-serif;
+}
+
+div > p { margin-top:5px;}

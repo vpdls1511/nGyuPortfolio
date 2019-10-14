@@ -1,0 +1,134 @@
+.intro-me{
+	position:absolute;
+	width:calc(100% - 45px);
+	height:100%;
+	left:45px;
+	-webkit-touch-callout: none;
+  	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.intro-me > div{
+	width:30%;
+	height:100%;
+	float:left;
+	background:#35A891;
+	color:white;
+}
+.intro-me > div:nth-child(2){
+	left:40%;
+	background:#35A891;
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+.intro-me > div:last-child{
+	left:60%;
+	width:40%;
+	float:right;
+	overflow:hidden;
+}
+/*********
+Profile Setting
+***********************/
+
+.profile > hr{
+	margin-top:0px;
+	width:80%;
+	border:1px solid rgba(255,255,255,0.5);
+}
+.profile > .name{
+	position:relative;
+	top:30px;
+	left:10%;
+	font-family: 'Black Han Sans', sans-serif;
+	font-size:30pt;
+	color:rgba(255,255,255,0.2);
+}
+.name > span{
+	position:relative;
+	top:-38px;
+	left:20px;
+	font-size:30pt;
+	margin:0px;
+	color:rgba(255,255,255,0.8);
+}
+
+.profile > .birth{
+	position:relative;
+	left:13%;
+	font-family:"Black Han Sans", sans-serif;
+	color:rgba(255,255,255,0.7);
+	font-size:20pt;
+}
+.birth > p{
+	position:relative;
+	float:right;
+	top:-32px;
+	right:55px;
+	font-size:15pt;
+}
+
+/*********
+Award Setting
+***********************/
+.award > sapn:first-child{
+	font-family: 'Black Han Sans', sans-serif;
+	position:relative;
+	top:20px;
+	left:40px;
+	width:280px;
+	display:block;
+	font-size:50pt;
+	color:rgba(255,255,255,0.4);
+	height:160px;
+
+}
+.award > sapn:first-child > span{
+	position:relative;
+	font-size:40pt;
+	top:-55px;
+	left:100px;
+	display:block;
+	color:rgba(255,255,255,0.1);
+}
+
+.pContent{
+	width:70%;
+	margin:0px auto;
+}
+
+
+/*********
+Profile Image
+***********************/
+
+.img{
+	position:relative;
+	filter:grayscale(90%);
+	filter:brightness(0.5);
+	width:100%;
+	height:100%;
+	background-image:url('./img/profile.jpg');
+	background-repeat:none;
+	background-size:cover;
+	background-position:center center;
+}
+
+
+
+/*********
+custom scroll
+***********************/
+::-webkit-scrollbar-track-piece{
+	background-color:rgba(10,78,80 , 0.1);
+}
+::-webkit-scrollbar-thumb{
+background-color:rgba(89,128,120 , 0.1);
+	border-radius:10px;
+}
+::-webkit-scrollbar-button{
+	height:0px;
+	width:0px;
+}

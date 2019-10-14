@@ -1,0 +1,5 @@
+.contect{
+	height:100%;
+	width:calc(100% - 45px);
+	float:right;
+}
